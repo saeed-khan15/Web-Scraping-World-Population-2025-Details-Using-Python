@@ -9,6 +9,7 @@ This project is both a learning exercise in web scraping and a practical example
 
 ## 🧰 Tools and Libraries Used
 
+- `Python` – Core programming language
 - `requests`: To make HTTP requests and fetch web page content
 - `BeautifulSoup`: To parse and extract the HTML table
 - `pandas`: To convert the parsed data into a structured DataFrame and export it to Excel
@@ -30,11 +31,36 @@ web-scraping-world-population/
 ├── requirements.txt
 ```
 
-## 🚀 How to Run the Project
+## Sample Output
+The scraped Excel file includes the following columns:
+Country (or dependency)
 
-### 1. Clone the repository
+- `Population (2025)`
 
-```bash
-git clone https://github.com/your-username/web-scraping-world-population.git
-cd web-scraping-world-population
-```
+- `Yearly Change`
+
+- `Net Change`
+
+- `Density (P/Km²)`
+
+- `Land Area (Km²)`
+
+- `Migrants (net)`
+
+- `Fertility Rate`
+
+- `Median Age`
+
+- `Urban Population %`
+
+- `World Share`
+
+## Future Enhancements
+- Add automation using schedulers like cron or APScheduler
+
+- Clean and transform data for easier analysis
+
+- Visualize population trends using tools like Power BI or Matplotlib
+
+- Export data to a database (e.g., SQLite, PostgreSQL)
+
