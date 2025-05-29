@@ -1,0 +1,4 @@
+these are the required libraries used in this scraping.
+requests
+beautifulsoup4
+pandas
